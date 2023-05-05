@@ -1,0 +1,195 @@
+
+:root {
+  --ge-table-color-error-text: #e00034;
+  --ge-table-color-selected-range-bg: rgba(0, 152, 219, 0.4);
+  --ge-table-color-col-resize-handle-hover-bg: rgb(0, 255, 255);
+  --ge-table-color-drop-zone: rgba(244, 255, 242, 0.6);
+  --ge-table-color-drop-zone-bg: rgba(244, 255, 242, 0.6);
+  --ge-table-color-dragged-col-div-bg: lightcyan;
+  --ge-table-color-focus-border-bg: rgb(0, 255, 255);
+  --ge-table-color-header-bg: rgba(233, 233, 233, 0.5);
+  --ge-table-color-footer-bg: rgba(233, 233, 233, 0.5);
+  --ge-table-color-body-west-bg: rgba(244, 244, 244, 0.5);
+  --ge-table-color-body-east-bg: rgba(244, 244, 244, 0.5);
+  --ge-table-color-hover-column-bg: rgba(224, 255, 255, 0.5);
+  --ge-table-color-hover-row-bg: rgba(224, 255, 255, 0.5);
+  --ge-table-color-west-fixed-column-border-bg: #bbb;
+  --ge-table-color-east-fixed-column-border-bg: #bbb;
+  --ge-table-color-footer-border-bg: #bbb;
+  --ge-table-color-header-border-bg: #bbb;
+  --ge-table-color-row-border-bg: #ddd;
+  --ge-table-color-column-border-bg: #dadada;
+  --ge-table-color-tree-arrow-collapsed-color: #e00034;
+  --ge-table-color-true-text-color: green;
+  --ge-table-color-false-text-color: #e00034;
+}
+
+.ge-true-text-color {
+  color: var(--ge-table-color-true-text-color)
+}
+
+.ge-false-text-color {
+  color: var(--ge-table-color-false-text-color)
+}
+
+.ge-table-col-div {
+  text-align: center;
+  line-height: 2.5;
+  user-select: none;
+}
+
+.ge-table-label-div {
+  padding: 0;
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.ge-cell-error {
+  color: var(--ge-table-color-error-text);
+}
+
+.ge-table-selected-range {
+  background-color: var(--ge-table-color-selected-range-bg);
+}
+
+.ge-table-col-resize-handle:hover {
+  background-color: var(--ge-table-color-col-resize-handle-hover-bg);
+}
+
+.ge-table-drop-zone {
+  background-color: var(--ge-table-color-drop-zone-bg);
+}
+
+.ge-table-dragged-col-div {
+  background-color: var(--ge-table-color-dragged-col-div-bg);
+}
+
+.ge-table-focus-border {
+  background-color: var(--ge-table-color-focus-border-bg);
+}
+
+.ge-table-label-div .ge-table-label {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ge-table-text-align-left {
+  text-align: left;
+}
+
+.ge-table-text-align-right {
+  text-align: right;
+}
+
+.ge-table-text-align-center {
+  text-align: center;
+}
+
+/* Row checkbox */
+.ge-table-row-checkbox-div {
+  padding-left: 14px;
+}
+
+
+/* background colors */
+.ge-table-header {
+  background-color: var(--ge-table-color-header-bg);
+}
+
+.ge-table-footer {
+  background-color: var(--ge-table-color-footer-bg);
+}
+
+.ge-table-body-west {
+  background-color: var(--ge-table-color-body-west-bg);
+}
+
+.ge-table-body-east {
+  background-color: var(--ge-table-color-body-east-bg);
+}
+
+.ge-table-hover-column {
+  background-color: var(--ge-table-color-hover-column-bg);
+}
+
+.ge-table-hover-row {
+  background-color: var(--ge-table-color-hover-row-bg);
+}
+
+
+/* borders */
+
+.ge-table-west-fixed-column-border {
+  background-color: var(--ge-table-color-west-fixed-column-border-bg);
+}
+
+.ge-table-east-fixed-column-border {
+  background-color: var(--ge-table-color-east-fixed-column-border-bg);
+}
+
+.ge-table-footer-border {
+  background-color: var(--ge-table-color-footer-border-bg);
+}
+
+.ge-table-header-border {
+  background-color: var(--ge-table-color-header-border-bg);
+}
+
+.ge-table-row-border {
+  background-color: var(--ge-table-color-row-border-bg);
+}
+
+.ge-table-column-border {
+  background-color: var(--ge-table-color-column-border-bg);
+}
+
+/* Tree table */
+
+.ge-table-col-div.ge-table-col-div-0.ge-table-tree-cell {
+  text-align: left;
+}
+
+.ge-table-tree-cell .ge-table-label-div {
+  padding-left: 0;
+  padding-right: 10px;
+  display: inline;
+}
+
+.ge-tree-arrow-collapsed {
+  color: var(--ge-table-color-tree-arrow-collapsed-color);
+}
+
+.ge-table-col-tree {
+  text-align: left;
+}
+
+.ge-table-col-tree.ge-table-tree-deep-0 {
+  padding-left: 16px;
+}
+
+.ge-table-col-tree.ge-table-tree-deep-1 {
+  padding-left: 36px;
+}
+
+.ge-table-col-tree.ge-table-tree-deep-2 {
+  padding-left: 56px;
+}
+
+.ge-table-col-tree.ge-table-tree-deep-3 {
+  padding-left: 76px;
+}
+
+.ge-table-col-tree.ge-table-tree-deep-4 {
+  padding-left: 96px;
+}
+
+.ge-table-col-tree.ge-table-tree-deep-5 {
+  padding-left: 116px;
+}
+
+.ge-table-col-tree.ge-table-tree-deep-5 {
+  padding-left: 136px;
+}
+
+
