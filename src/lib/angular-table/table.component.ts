@@ -31,7 +31,11 @@ import { DomService } from "./service/dom-service";
   imports: [CommonModule],
   providers: [DomService],
   template: "",
-  styleUrls: ["./table.component.css"],
+  styleUrls: [
+    "./table.component.css",
+    "./table-color-vars.css",
+    "./table-color-classes.css"
+  ],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
