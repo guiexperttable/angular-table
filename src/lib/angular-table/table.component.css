@@ -29,7 +29,7 @@
   background-color: var(--ge-table-color-selected-range-bg);
 }
 
-.ge-table-col-resize-handle:hover {
+.ge-table-column-resize-handle:hover {
   background-color: var(--ge-table-color-col-resize-handle-hover-bg);
 }
 

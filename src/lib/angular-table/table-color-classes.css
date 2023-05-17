@@ -60,7 +60,6 @@
 .ge-table-footer-west-horizontal-border { background-color: var(--ge-table-footer-west-horizontal-border); }
 .ge-table-footer-west-vertical-border { background-color: var(--ge-table-footer-west-vertical-border); }
 .ge-table-footer-center-horizontal-border { background-color: var(--ge-table-footer-center-horizontal-border); }
-
 .ge-table-footer-center-vertical-border { background-color: var(--ge-table-footer-center-vertical-border); }
 .ge-table-footer-east-horizontal-border { background-color: var(--ge-table-footer-east-horizontal-border); }
 .ge-table-footer-east-vertical-border { background-color: var(--ge-table-footer-east-vertical-border); }
@@ -75,6 +74,7 @@
 
 
 
+.ge-table-border { background-color: var(--ge-table-border); }
 .ge-table-selected-range {background-color: var(--ge-table-selected-range-bg); }
 .ge-table-row-odd {background-color: var(--ge-table-row-odd-bg); }
 .ge-table-row-even {background-color: var(--ge-table-row-even-bg); }
@@ -92,3 +92,4 @@
 .ge-table-color-tree-arrow-collapsed-color { background-color: var(--ge-table-color-tree-arrow-collapsed-color); }
 .ge-table-color-error { color: var(--ge-table-color-error-text); }
 .ge-table-tree-arrow-collapsed { color: var(--ge-table-tree-arrow-collapsed-color);}
+.ge-table-column-resize-handle:hover { background-color: var(--ge-table-column-resize-handle-border) }
