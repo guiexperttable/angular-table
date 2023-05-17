@@ -73,7 +73,7 @@
   --ge-table-footer-east-selected-range-text: #fff;
 
 
-  --ge-table-border : orange;
+  --ge-table-border : #ccc;
   --ge-table-selected-range-bg: rgba(0, 140, 255, 0.2);
 
   --ge-table-row-odd-bg: transparent;
@@ -84,13 +84,12 @@
   --ge-table-hover-column-bg: rgba(0, 224, 255, 0.27);
   --ge-table-hover-row-bg: rgba(0, 224, 255, 0.27);
   --ge-table-focus-border: rgb(0, 255, 255);
-  --ge-table-color-col-resize-handle-hover-bg: rgb(0, 255, 255);
-  --ge-table-color-dragged-col-div-bg: lightcyan;
-  --ge-table-color-drop-zone-bg: rgba(244, 255, 242, 0.6);
-  --ge-table-color-drop-zone: rgba(244, 255, 242, 0.6);
-  --ge-table-color-tree-arrow-collapsed-color: #e00034;
+
   --ge-table-color-error-text: #e00034;
   --ge-table-tree-arrow-collapsed-color: #e00034;
   --ge-table-column-resize-handle-border: rgb(0, 255, 255);
+
+  --ge-table-dragged-col-div-bg: lightcyan;
+  --ge-table-drop-zone-bg: rgba(244, 255, 242, 0.6);
 }
 
