@@ -14,14 +14,6 @@
 .ge-table-header-east-horizontal-border { background-color: var(--ge-table-header-east-horizontal-border); }
 .ge-table-header-east-vertical-border { background-color: var(--ge-table-header-east-vertical-border); }
 
-.ge-table-header-west-selected-range { background-color: var(--ge-table-header-west-selected-range-bg); }
-.ge-table-header-center-selected-range { background-color: var(--ge-table-header-center-selected-range-bg); }
-.ge-table-header-east-selected-range { background-color: var(--ge-table-header-east-selected-range-bg); }
-.ge-table-header-west-selected-range { color: var(--ge-table-header-west-selected-range-text); }
-.ge-table-header-center-selected-range { color: var(--ge-table-header-center-selected-range-text); }
-.ge-table-header-east-selected-range { color: var(--ge-table-header-east-selected-range-text); }
-
-
 
 .ge-table-body-west { background-color: var(--ge-table-body-west-bg); }
 .ge-table-body-center { background-color: var(--ge-table-body-center-bg); }
@@ -63,13 +55,6 @@
 .ge-table-footer-center-vertical-border { background-color: var(--ge-table-footer-center-vertical-border); }
 .ge-table-footer-east-horizontal-border { background-color: var(--ge-table-footer-east-horizontal-border); }
 .ge-table-footer-east-vertical-border { background-color: var(--ge-table-footer-east-vertical-border); }
-
-.ge-table-footer-west-selected-range { background-color: var(--ge-table-footer-west-selected-range-bg); }
-.ge-table-footer-center-selected-range { background-color: var(--ge-table-footer-center-selected-range-bg); }
-.ge-table-footer-east-selected-range { background-color: var(--ge-table-footer-east-selected-range-bg); }
-.ge-table-footer-west-selected-range { color: var(--ge-table-footer-west-selected-range-text); }
-.ge-table-footer-center-selected-range { color: var(--ge-table-footer-center-selected-range-text); }
-.ge-table-footer-east-selected-range { color: var(--ge-table-footer-east-selected-range-text); }
 
 
 

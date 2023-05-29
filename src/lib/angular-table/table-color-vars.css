@@ -47,24 +47,13 @@
   --ge-table-footer-east-horizontal-border: var(--ge-table-header-east-horizontal-border);
   --ge-table-footer-east-vertical-border: var(--ge-table-header-east-vertical-border);
 
-  --ge-table-header-west-selected-range-bg: rgba(0, 152, 219, 0.4);
-  --ge-table-header-center-selected-range-bg: rgba(0, 152, 219, 0.4);
-  --ge-table-header-east-selected-range-bg: rgba(0, 152, 219, 0.4);
+
   --ge-table-body-west-selected-range-bg: rgba(0, 152, 219, 0.4);
   --ge-table-body-center-selected-range-bg: rgba(0, 152, 219, 0.4);
   --ge-table-body-east-selected-range-bg: rgba(0, 152, 219, 0.4);
-  --ge-table-footer-west-selected-range-bg: rgba(0, 152, 219, 0.4);
-  --ge-table-footer-center-selected-range-bg: rgba(0, 152, 219, 0.4);
-  --ge-table-footer-east-selected-range-bg: rgba(0, 152, 219, 0.4);
-  --ge-table-header-west-selected-range-text: #000;
-  --ge-table-header-center-selected-range-text: #000;
-  --ge-table-header-east-selected-range-text: #000;
   --ge-table-body-west-selected-range-text: #000;
   --ge-table-body-center-selected-range-text: #000;
   --ge-table-body-east-selected-range-text: #000;
-  --ge-table-footer-west-selected-range-text: #000;
-  --ge-table-footer-center-selected-range-text: #000;
-  --ge-table-footer-east-selected-range-text: #000;
 
 
   --ge-table-border : #ccc;
@@ -141,22 +130,11 @@
   --ge-table-drop-zone-bg: oklch(0% 0 0);
 
 
-  --ge-table-header-west-selected-range-bg: oklch(19% 0.2 205.2);
-  --ge-table-header-center-selected-range-bg: oklch(19% 0.2 205.2);
-  --ge-table-header-east-selected-range-bg: oklch(19% 0.2 205.2);
+
   --ge-table-body-west-selected-range-bg: oklch(19% 0.2 205.2);
   --ge-table-body-center-selected-range-bg: oklch(19% 0.2 205.2);
   --ge-table-body-east-selected-range-bg: oklch(19% 0.2 205.2);
-  --ge-table-footer-west-selected-range-bg: oklch(19% 0.2 205.2);
-  --ge-table-footer-center-selected-range-bg: oklch(19% 0.2 205.2);
-  --ge-table-footer-east-selected-range-bg: oklch(19% 0.2 205.2);
-  --ge-table-header-west-selected-range-text: #000;
-  --ge-table-header-center-selected-range-text: #000;
-  --ge-table-header-east-selected-range-text: #000;
   --ge-table-body-west-selected-range-text: #000;
   --ge-table-body-center-selected-range-text: #000;
   --ge-table-body-east-selected-range-text: #000;
-  --ge-table-footer-west-selected-range-text: #000;
-  --ge-table-footer-center-selected-range-text: #000;
-  --ge-table-footer-east-selected-range-text: #000;
 }
