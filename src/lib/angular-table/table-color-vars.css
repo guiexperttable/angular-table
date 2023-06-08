@@ -1,6 +1,6 @@
 
 :root [data-theme= "light"] {
-
+  --ge-table-bg: #fff;
   --ge-table-header-west-bg: var(--ge-table-header-center-bg);
   --ge-table-header-center-bg: rgba(233, 233, 233, 0.5);
   --ge-table-header-east-bg: var(--ge-table-header-center-bg);
@@ -79,6 +79,7 @@
 
 
 :root [data-theme= "dark"] {
+  --ge-table-bg: #000;
   --ge-table-header-west-bg: oklch(0% 0 0);
   --ge-table-header-center-bg: oklch(0% 0 0);
   --ge-table-header-east-bg: oklch(0% 0 0);

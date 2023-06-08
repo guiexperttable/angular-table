@@ -1,5 +1,7 @@
 
 
+.ge-table { background-color: var(--ge-table-bg); }
+
 .ge-table-header-west { background-color: var(--ge-table-header-west-bg); }
 .ge-table-header-center { background-color: var(--ge-table-header-center-bg); }
 .ge-table-header-east { background-color: var(--ge-table-header-east-bg); }
