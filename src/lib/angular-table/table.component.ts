@@ -78,7 +78,6 @@ export class TableComponent implements OnInit, OnDestroy, EventListenerIf {
 
   private tableScope?: TableScope;
   private alive = true;
-  private _if: boolean = true;
 
 
   constructor(
@@ -89,12 +88,6 @@ export class TableComponent implements OnInit, OnDestroy, EventListenerIf {
   ) {
   }
 
-  // TODO remove
-  @Input()
-  set tableIf(value: boolean) {
-    this._if = value;
-    // TODO del Promise.resolve().then(this.initModel.bind(this));
-  }
 
   onContextmenu(evt: GeMouseEvent): void {
     this.contextmenu.next(evt);
