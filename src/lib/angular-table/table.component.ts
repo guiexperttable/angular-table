@@ -89,10 +89,11 @@ export class TableComponent implements OnInit, OnDestroy, EventListenerIf {
   ) {
   }
 
+  // TODO remove
   @Input()
   set tableIf(value: boolean) {
     this._if = value;
-    Promise.resolve().then(this.initModel.bind(this));
+    // TODO del Promise.resolve().then(this.initModel.bind(this));
   }
 
   onContextmenu(evt: GeMouseEvent): void {
